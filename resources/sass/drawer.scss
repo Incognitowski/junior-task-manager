@@ -1,0 +1,8 @@
+.drawer {
+    @apply h-full w-auto p-5 bg-gray-100 shadow-lg absolute right-0 top-0;
+    transition: all 0.2s;
+}
+
+.drawer-open {
+    right: -100%;
+}
